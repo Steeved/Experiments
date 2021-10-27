@@ -1,7 +1,12 @@
 from re import search as s, sub
 
+print("A Calculator for expressions from combinatorics.")
+
 
 def factorial(n):  # returns the amount or ways to arrange n elements -  n!
+    if n < 0:
+        input('\n!!! Error - n Cannot calculate factorial of negative numbers !!!\n')
+        exit()
     m = 1
     for v in range(1, n + 1):
         m *= v
@@ -10,21 +15,19 @@ def factorial(n):  # returns the amount or ways to arrange n elements -  n!
 
 def variation(n, k):  # returns the amount of ways to arrange n elements in k places - n!/(n-k)!
     if k > n:
-        print('\n!!! Error - k Cannot be greater than n in var(n, k) !!!\n')
+        input('\n!!! Error - k Cannot be greater than n in variation(n, k) !!!\n')
+        exit()
     return factorial(n) / factorial(n - k)
 
 
-def combination(n, k):  # returns the amount of ways to select k elements from n elements - n!/(n - k)!k!
+def combination(n, k):  # returns the amount of ways to combine k elements from n elements - n!/(n - k)!k!
     if n < k:
-        print('\n!!! Error - k Cannot be greater than n in com(n, k) !!!\n')
+        input('\n!!! Error - k Cannot be greater than n in combination(n, k) !!!\n')
+        exit()
     else:
-        print(n, k, variation(n, k), factorial(k))
         return variation(n, k) / factorial(k)
 
 
-# replacement of eval(); its done in 3 stages:
-# replacement of parts of the string(expression)
-# with the result of the function specified - factorial, variation, combination.
 def evaluateexp(exp):
     factre = 'fact\\(([0-9]+)(\\))'
     varre = 'var\\((\\d+)(, )(\\d+)(\\))'
