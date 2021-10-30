@@ -122,7 +122,7 @@ difficulties = {
     "hard": 7
 }
 
-print("Sudoku generator.\nAvailable difficulties: Easy Medium Hard")
+print("Sudoku generator.\nAvailable difficulties: easy,normal or hard")
 difficulty = input('Difficulty: ')
 
 try:
