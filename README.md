@@ -3,8 +3,8 @@ This is made just for testing various things.
 
 Contents:
 
- * [GUI programs](GUI/GUIPROGRAMS.MD)
- * [Converter](Converters/CONVERTERS.MD) for different distance units
- * [Sudoku generator](SudokuGen/SUDOKUGEN.MD)
- * [A calculator](CalcVarCom/CALCVARCOM.MD) for expressions from combinatorics
- * A [program](NumsToWords/NUMSTOWORDS.MD) that turns numbers into words
+ * [GUI programs](GUI/README.MD)
+ * Two [converters](Converters/README.MD) for different distance units and currencies
+ * [Sudoku generator](SudokuGen/README.MD)
+ * [A calculator](CalcVarCom/README.MD) for expressions from combinatorics
+ * A [program](NumsToWords/README.MD) that turns numbers into words
