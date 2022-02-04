@@ -8,11 +8,11 @@
 > 2. Unit to convert to;
 > 3. Distance, measured in the unit, you first entered.
 
-* [Currency Converter](CurrencyConverter/CurrencyConvert.py)
+* [Currency Converter](CurrencyConverter/CurrencyConvertGUI.pyw)
 
 > Different currency names are stored as abbreviations in "values.txt" and separated by a SPACE character. Their conversion rates are downloaded from the Internet on startup.
 > To convert a value from one currency to another select the two currencies and type the value You want to convert.
 
-* [Binary Number Converter](CurrencyConverter/CurrencyConvert.py)
+* [Binary Number Converter](IntBinConverter/IntToBinConversionGUI.pyw)
 
 > On startup the conversion mode is from Integer to Binary numbers. To change it press the button labeled "Change mode". To convert a number from Binary to Integer or the opposite type it while having the right mode selected.
