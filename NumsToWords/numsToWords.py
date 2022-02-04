@@ -3,7 +3,7 @@ print("A program that converts numbers ranging from 0 to 10^67 - 1 into words.\n
 
 words = ['', 'thousand', 'million', 'billion', 'trillion', 'quadrillion', 'quintillion', 'sextillion', 'septillion',
          'octillion', 'nonillion', 'decillion', 'undecillion', 'duodecillion', 'tredecillion', 'quattuordecillion',
-         'quinquadecillion', 'sedecillion', 'septendecillion', 'octodecillion', 'novendecillion', 'vigintillion']
+         'quinquadecillion', 'sedecillion', 'septendecillion', 'octodecillion', 'novendecillion', 'vigintillion']  # number names after 999
 
 
 def wordTransfer2(num):
