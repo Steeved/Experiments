@@ -1,5 +1,1 @@
-{
-    "BGN": "1",
-    "EUR": "1.96",
-    "GBP": "2.22"
-    }
+BGN USD JPY GBP EUR
